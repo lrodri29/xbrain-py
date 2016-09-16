@@ -26,7 +26,7 @@ ___(Step 2) Run one of our example notebooks!___
 * Run simple ilastik classifier on large volumes ([notebook](https://github.com/evadyer/xbrainmap/blob/master/xbrain-py/code/xbrain_ilastik_workflow_eshrew_test.ipynb)) 
 
 ### Contributors
-* Eva Dyer (([@evadyer](github.com/evadyer)))
-* Will Gray Roncal ([@willgray](github.com/willgray))
-* Mehdi Tondravi ([@anlmehdi](github.com/anlmehdi))
+* Eva Dyer ([@evadyer](http://github.com/evadyer))
+* Will Gray Roncal ([@willgray](http://github.com/willgray))
+* Mehdi Tondravi ([@anlmehdi](http://github.com/anlmehdi))
 
