@@ -19,8 +19,13 @@ conda install jupyter
 pip install tifffiles
 
 source deactivate
-source activate ilastik-dev
 ```
+Now each time you run ilastik, you need to enter into this environment. To start the environment and launch a notebook, use the following (terminal) command:
+```
+source activate ilastik-dev
+jupyter notebook
+```
+
 ___(Step 2) Run one of our example notebooks!___
 * Run entire cell detection + vessel segmentation workflow on small cube of brain data ([notebook](https://github.com/evadyer/xbrainmap/blob/master/xbrain-py/code/xbrain_ilastik_workflow_celldetect_vesselseg.ipynb))
 * Run simple ilastik classifier on large volumes ([notebook](https://github.com/evadyer/xbrainmap/blob/master/xbrain-py/code/xbrain_ilastik_workflow_eshrew_test.ipynb)) 
