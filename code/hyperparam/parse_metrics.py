@@ -1,13 +1,13 @@
 from matplotlib import numpy
 
 baseDir1 = '/Users/evadyer/Documents/xbrain-hyperpresults/ec2_2015November09_02h02m26s498ms';
-f1 = dir([baseDir1, '*.py']);
+f1 = dir([baseDir1, '*.py'])
 
 baseDir2 = '/Users/evadyer/Documents/xbrain-hyperpresults/bc1_2015November08_19h12m51s242ms';
-f2 = dir([baseDir2, '*.py']);
+f2 = dir([baseDir2, '*.py'])
 
 baseDir3 = '/Users/evadyer/Documents/xbrain-hyperpresults/ilastik3';
-f3 = dir([baseDir1, '*.py']);
+f3 = dir([baseDir1, '*.py'])
 
 metrics = [];
 for i in range(1,len(f1)):
