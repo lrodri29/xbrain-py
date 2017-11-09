@@ -11,7 +11,7 @@ f3 = dir([baseDir1, '*.py'])
 
 metrics = [];
 for i in range(1,len(f1)):
-    load([baseDir1, f1(i).name])
+    loads([baseDir1, f1(i).name])
     metrics(end+1).segErrNMap = segErrNMap
     metrics(end).segErrTMap = segErrTMap
     metrics(end).CellMetrics_CentroidErr = CellMetrics.CentroidErr
